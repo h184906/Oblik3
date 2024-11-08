@@ -4,8 +4,8 @@ import no.hvl.dat100.common.TODO;
 import no.hvl.dat100.oppgave1.*;
 
 public class Blogg {
-	private Innlegg[] innleggtabell;
-	private int nesteledig;
+	protected Innlegg[] innleggtabell;
+	protected int nesteledig;
 
 	public Blogg() {
 		this(20);
@@ -90,7 +90,7 @@ public class Blogg {
 	}
 	
 	public int[] search(String keyword) {
-		//Malen matvher ikke oppgaven fra github?
+		//Malen matcher ikke oppgaven fra github?
 		throw new UnsupportedOperationException(TODO.method());
 
 	}

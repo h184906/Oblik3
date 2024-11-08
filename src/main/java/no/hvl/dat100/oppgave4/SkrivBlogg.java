@@ -4,7 +4,7 @@ import java.io.File;
 import java.io.FileNotFoundException;
 
 import java.io.PrintWriter;
-import no.hvl.dat100.oppgave3.Blogg;
+import no.hvl.dat100.oppgave3.*;
 
 public class SkrivBlogg {
 
